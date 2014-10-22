@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+  //calls the forum class in the style sheet below so the default background 
+  //color will always be black in this hover event. 
+    var colorOrig=$(".forum").css('background');
+    $(".forum").hover(
+    function() {
+        //mouse over, changes from background color to selected color
+        $(this).css('background', '#ff0')
+    }, function() {
+        //mouse out, when mouse moves away goes back to background color. 
+        $(this).css('background', colorOrig)
+
+    });
+    var colorOrig=$(".div2").css('background');
+   $(".div2").hover(
+    function() {
+        //mouse over, changes from background color to selected color
+        $(".div2").css('background', 'blue')
+    }, function() {
+        //mouse out, when mouse moves away goes back to background color. 
+        $(".div2").css('background', colorOrig)
+
+    });
+
+    var colorOrig=$(".div3").css('background');
+   $(".div3").hover(
+    function() {
+        //mouse over, changes from background color to selected color
+        $(".div3").css('background', 'orange')
+    }, function() {
+        //mouse out, when mouse moves away goes back to background color. 
+        $(".div3").css('background', colorOrig)
+
+    });
+
+   var colorOrig=$(".div4").css('background');
+   $(".div4").hover(
+    function() {
+        //mouse over, changes from background color to selected color
+        $(".div4").css('background', 'pink')
+    }, function() {
+        //mouse out, when mouse moves away goes back to background color. 
+        $(".div4").css('background', colorOrig)
+
+    });
+
+   var colorOrig=$(".div5").css('background');
+   $(".div5").hover(
+    function() {
+        //mouse over, changes from background color to selected color
+        $(".div5").css('background', 'magenta')
+    }, function() {
+        //mouse out, when mouse moves away goes back to background color. 
+        $(".div5").css('background', colorOrig)
+
+    });
+
+   var colorOrig=$(".div6").css('background');
+   $(".div6").hover(
+    function() {
+        //mouse over, changes from background color to selected color
+        $(".div6").css('background', 'red')
+    }, function() {
+        //mouse out, when mouse moves away goes back to background color. 
+        $(".div6").css('background', colorOrig)
+
+    });
+
+   var colorOrig=$(".div7").css('background');
+   $(".div7").hover(
+    function() {
+        //mouse over, changes from background color to selected color
+        $(".div7").css('background', 'violet')
+    }, function() {
+        //mouse out, when mouse moves away goes back to background color. 
+        $(".div7").css('background', colorOrig)
+
+    });
+
+    var colorOrig=$(".div8").css('background');
+   $(".div8").hover(
+    function() {
+        //mouse over, changes from background color to selected color
+        $(".div8").css('background', 'blue')
+    }, function() {
+        //mouse out, when mouse moves away goes back to background color. 
+        $(".div8").css('background', colorOrig)
+
+    });
+
+   var colorOrig=$(".div9").css('background');
+   $(".div9").hover(
+    function() {
+        //mouse over, changes from background color to selected color
+        $(".div9").css('background', 'yellow')
+    }, function() {
+        //mouse out, when mouse moves away goes back to background color. 
+        $(".div9").css('background', colorOrig)
+
+    });
+
+    var colorOrig=$(".div9").css('background');
+   $(".div10").hover(
+    function() {
+        //mouse over, changes from background color to selected color
+        $(".div10").css('background', 'lime')
+    }, function() {
+        //mouse out, when mouse moves away goes back to background color. 
+        $(".div10").css('background', colorOrig)
+
+    });
+
+    var colorOrig=$(".div11").css('background');
+   $(".div11").hover(
+    function() {
+        //mouse over, changes from background color to selected color
+        $(".div11").css('background', 'orange')
+    }, function() {
+        //mouse out, when mouse moves away goes back to background color. 
+        $(".div11").css('background', colorOrig)
+
+    });
+   var colorOrig=$(".div12").css('background');
+   $(".div12").hover(
+    function() {
+        //mouse over, changes from background color to selected color
+        $(".div12").css('background', 'orange')
+    }, function() {
+        //mouse out, when mouse moves away goes back to background color. 
+        $(".div12").css('background', colorOrig)
+
+    });
+
+    var colorOrig=$(".div13").css('background');
+   $(".div13").hover(
+    function() {
+        //mouse over, changes from background color to selected color
+        $(".div13").css('background', 'lime')
+    }, function() {
+        //mouse out, when mouse moves away goes back to background color. 
+        $(".div13").css('background', colorOrig)
+
+    });
+
+   var colorOrig=$(".div14").css('background');
+   $(".div14").hover(
+    function() {
+        //mouse over, changes from background color to selected color
+        $(".div14").css('background', 'blue')
+    }, function() {
+        //mouse out, when mouse moves away goes back to background color. 
+        $(".div14").css('background', colorOrig)
+
+    });
+
+   var colorOrig=$(".div15").css('background');
+   $(".div15").hover(
+    function() {
+        //mouse over, changes from background color to selected color
+        $(".div15").css('background', 'red')
+    }, function() {
+        //mouse out, when mouse moves away goes back to background color. 
+        $(".div15").css('background', colorOrig)
+
+    });
+
+    var colorOrig=$(".div16").css('background');
+   $(".div16").hover(
+    function() {
+        //mouse over, changes from background color to selected color
+        $(".div16").css('background', 'magenta')
+    }, function() {
+        //mouse out, when mouse moves away goes back to background color. 
+        $(".div16").css('background', colorOrig)
+
+    });
+   //position all the elements as needed 
+   $(".forum").offset({top: 5}); 
+   $(".div2").offset({top: 5, left: 110}); 
+   $(".div5").offset({left:212, top:5});
+   $(".div3").offset({top:110}); 
+   $(".div4").offset({left:110, top:110}); 
+   $(".div6").offset({left:212, top:110}); 
+   $(".div7").offset({top:215}); 
+   $(".div8").offset({left:110, top:215}); 
+   $(".div9").offset({left:212, top:215}); 
+   $(".div10").offset({top:320}); 
+   $(".div11").offset({top:320, left: 110}); 
+   $(".div12").offset({top:5, left: 315}); 
+   $(".div13").offset({top:110, left: 315}); 
+   $(".div14").offset({top:215, left: 315}); 
+   $(".div15").offset({top:320, left: 315}); 
+   $(".div16").offset({top:320, left: 212}); 
+
+});
+</script>
+
+
+<style>
+.forum{
+    background:#000;
+}
+.div2{
+  background:#000;
+}
+.div3{
+  background:#000;
+}
+.div4{
+  background:#000;
+}
+.div5{
+  background:#000;
+}
+.div6{
+  background:#000;
+}
+.div7{
+  background:#000; 
+}
+.div8{
+  background:#000;
+}
+.div9{
+  background:#000;
+}
+.div10{
+  background:#000;
+}
+
+.div11{
+  background:#000;
+}
+
+.div12{
+  background: #000; 
+}
+
+.div13{
+  background: #000; 
+}
+
+.div14{
+  background: #000; 
+}
+
+.div15{
+  background: #000; 
+}
+
+.div16{
+  background: #000; 
+}
+
+
+
+</style>
+</head>
+<body>
+
+    <div class="forum" style="width:100px; height:100px;"></div>
+    <div class = "div2" style="width:100px; height:100px;"></div> 
+    <div class ="div3" style = "width:100px; height:100px"></div> 
+    <div class ="div4" style="width:100px; height:100px"></div> 
+    <div class="div5" style="width:100px; height:100px"></div> 
+    <div class="div6" style="width:100px; height:100px"></div> 
+    <div class="div7" style="width:100px; height:100px"></div>
+    <div class="div8" style="width:100px; height:100px"></div>  
+    <div class="div9" style="width:100px; height:100px"></div> 
+    <div class="div10" style="width:100px; height:100px"></div> 
+    <div class="div11" style="width:100px; height:100px"></div> 
+    <div class="div12" style="width:100px; height:100px"></div> 
+
+    <div class="div13" style="width:100px; height:100px"></div> 
+    <div class="div14" style="width:100px; height:100px"></div> 
+    <div class="div15" style="width:100px; height:100px"></div> 
+    <div class="div16" style="width:100px; height:100px"></div> 
+   
+
+</body>
+</html>
